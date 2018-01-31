@@ -1,1 +1,2 @@
+#!/bin/bash
 rm -rf data/miner/SmartNet/ && parity --config miner.toml --base-path `pwd`

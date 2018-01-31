@@ -1,0 +1,19 @@
+[parity]
+chain = "smartNet.json"
+base_path = "relaynode"
+[network]
+port = 30304
+reserved_peers = "./network.txt"
+[rpc]
+port = 7435
+cors = "*"
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+[account]
+unlock = ["0x001622be336710CA632dE00955928eb88832e51A"]
+password = ["node.pwds"]
+[misc]
+logging = "lsync=trace,txqueue=trace"
+[ui]
+port = 8181
+[websockets]
+port = 8451
