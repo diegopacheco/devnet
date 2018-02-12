@@ -1,3 +1,3 @@
 #!/bin/bash
-parity --config miner.toml --gasprice=1000000 --base-path `pwd` --geth
+parity --config miner.toml --gasprice=1000000 --base-path `pwd` --geth --tracing on
 #rm -rf data/miner/SmartNet/ && parity --config miner.toml --gasprice=1000000 --base-path `pwd`
